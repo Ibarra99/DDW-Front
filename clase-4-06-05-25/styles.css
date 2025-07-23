@@ -1,0 +1,13 @@
+.persona{
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mujer{
+    color: blue;
+    font-weight: 900;
+}

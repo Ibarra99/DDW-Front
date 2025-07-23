@@ -1,0 +1,97 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #dfe6e9 ;
+}
+
+header{
+    background-color: #5d6d7e ;
+}
+
+h1{
+    font-family:'Times New Roman';
+    color: #1a1a1a ;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    display: inline;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #263946;
+}
+
+a:hover{
+    color: #dfe6e9;
+}
+
+section{
+    padding: 20px;
+    margin: 20px;
+    background-color: #ecf0f1 ;
+}
+
+#inicio{
+    background-color: #eaf2f8;
+    color: #2980b9;
+    font-size: 20px;
+}
+
+#acerca{
+    background-color: #e8f8f5;
+    color: #27ae60;
+    font-size: 15px;
+}
+
+#servicios{
+    background-color: #fef9e7;
+    color: #f39c12;
+    font-size: 13px;
+}
+
+#contacto{
+    background-color: #f5eef8;
+    color: #8e44ad;
+    font-size: 20px;
+}
+
+input, textarea{
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin: 20px;
+}
+
+button{
+    background-color: #27ae60;
+    color: yellow;
+}
+
+button:hover {
+    background-color: beige;
+    color: red;
+}
+
+footer p, h3{
+    text-align: center;
+    color: #2980b9;
+}
+
+footer{
+    border-top: 2px solid black;
+}
+
+h1, h2{
+    text-shadow: 1px 1px 1px black;
+}

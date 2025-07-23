@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    width: 60px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    box-shadow: 10px 10px 5px 0px rgba(175, 165, 165, 0.75);
+    padding:20px;
+    border-radius: 7px;
+    /*border: 3px solid black;*/
+    animation: animate-card 2s alternate forwards; 
+}
+
+.card h3,.card p{
+    margin-bottom: 10px;
+}
+
+.cont-img{
+    display: flex;
+    justify-content: end;
+
+}
+.cont-img img{
+    animation: animate-img 0.5s alternate infinite linear;
+}
+@keyframes animate-card {
+    from {
+        border-top: 5px solid white;
+    }
+
+    to{
+        border-top: 5px solid turquoise;
+    }
+}
+
+@keyframes animate-img {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+
+    to{
+        transform: scale(1.05) rotate(-5deg);
+    }
+}
