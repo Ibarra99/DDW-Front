@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* #97b1c5 - Azul petroleo*/
+/* #FFC857 - Amarillo suave*/
+/* #2E2E2E - Gris oscuro*/
+
+/*Standars*/
+h1,h2,h3,h4,h5,h6 {
+    font-family:"Montserrat";
+    font-weight: bold;
+}
+
+p,a,li,form,button {
+    font-family: "Open Sans";
+}
+
+/*Hero section*/
+.hero{
+    /*vh --> viewport height*/
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/imges/hero.jpg");
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:#97b1c8;
+}
+
+.hero h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #dab977;
+}
+
+.hero .cta{
+    padding: 10px 30px;
+    border:none ;
+    border-radius: 10px;
+    background-color:#2E2E2E ;
+    color:white ;    
+    border: 2px solid rgb(95, 95, 95);
+    box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
+    transition: scale 0.2s; 
+    cursor: pointer;
+}
+
+.cta:hover{
+    scale: 1.1;
+}
+
+/*Service section*/
+.services {
+    padding: 20px;
+    background-color:#f9f9f9 ;
+}
+.services h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.benefits{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap:30px ;
+}
+
+.benefit{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
+}
+
+.services h3{
+    margin-bottom: 10px;
+}
+
+.service-content{
+    padding: 20px;
+    text-align: center;
+}
+.service-content h3{
+    color: #0F4C81;
+}
+
+/*Section Como Funciona*/
+.function-content{
+    background-color:#f9f9f9 ;
+    padding: 60px 20px;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.function-content h2{
+    margin-bottom: 40px;
+    color: #0F4C81;
+    font-size: 2.2rem;
+}
+
+.function-steps{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*Pasos individual*/
+.step{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 25px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.8);
+}
+
+.step h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.step p{
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
